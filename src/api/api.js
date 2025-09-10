@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://lib-back-ib9t.onrender.com/api/',
+  baseURL: 'https://lib-back-ib9t.onrender.com/',
   headers: { 'Content-Type': 'application/json' },
 });
 

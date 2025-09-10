@@ -41,7 +41,7 @@ function App() {
       {/* Main content */}
       <div className="p-6">
         <Routes>
-          <Route path="/" element={<h1 className="text-4xl font-bold text-indigo-700">Welcome 📚</h1>} />
+          <Route path="/" element={<h1 className="text-4xl font-bold text-indigo-700">Welcome To My Library 📚</h1>} />
           <Route path="/books" element={<BookList />} />
           <Route path="/books/new" element={<BookForm />} />
           <Route path="/books/edit/:id" element={<BookForm />} />
